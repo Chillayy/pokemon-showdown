@@ -136,7 +136,7 @@ exports.debugdexsearchprocesses = true;
  *
  * @type {ID}
  */
-exports.potd = "Typhlosion";
+exports.potd = '';
 
 /**
  * crash guard - write errors to log file instead of crashing
