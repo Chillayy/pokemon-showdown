@@ -66,15 +66,10 @@ export const Formats: FormatList = [
 		name: "[Gen 9] Multi Random Battle",
 
 		mod: 'gen9',
-		team: 'random',
 		gameType: 'multi',
-		searchShow: false,
-		tournamentShow: false,
 		rated: false,
-		ruleset: [
-			'Max Team Size = 3',
-			'Obtainable', 'Species Clause', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod',
-		],
+		ruleset: ['Standard Doubles'],
+		banlist: ['DUber', 'Shadow Tag'],
 	},
 	{
 		name: "[Gen 9] OU",
