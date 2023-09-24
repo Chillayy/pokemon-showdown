@@ -336,6 +336,13 @@ export const Formats: FormatList = [
 		banlist: ['DUber', 'Shadow Tag'],
 	},
 	{
+		name: "[Gen 9] TRUE 2v2 Doubles",
+		mod: 'gen9',
+		gameType: 'multi',
+		ruleset: ['Standard Doubles'],
+		banlist: ['DUber', 'Shadow Tag'],
+	},
+	{
 		name: "[Gen 9] Doubles Ubers",
 		threads: [
 			`&bullet; <a href="https://www.smogon.com/forums/threads/3712864/">Doubles Ubers</a>`,
