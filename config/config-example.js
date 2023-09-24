@@ -13,7 +13,7 @@ exports.port = 8000;
  *
  * @type {string}
  */
-exports.bindaddress = '0.0.0.0';
+exports.bindaddress = '10.0.0.202';
 
 /**
  * workers - the number of networking child processes to spawn
@@ -136,7 +136,7 @@ exports.debugdexsearchprocesses = true;
  *
  * @type {ID}
  */
-exports.potd = '';
+exports.potd = "Typhlosion";
 
 /**
  * crash guard - write errors to log file instead of crashing
