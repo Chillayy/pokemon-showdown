@@ -50,7 +50,7 @@ exports.transpile = (decl) => {
 		tsconfig: './tsconfig.json',
 		sourcemap: true,
 	});
-	fs.copyFileSync('./config/config-example.js', './dist/config/config-example.js');
+	fs.copyFileSync('./config/config.js', './dist/config/config.js');
 	copyOverDataJSON();
 
 	// NOTE: replace is asynchronous - add additional replacements for the same path in one call instead of making multiple calls.
